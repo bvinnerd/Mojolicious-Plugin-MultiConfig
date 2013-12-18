@@ -34,9 +34,9 @@ L<Mojolicious::Plugin::MultiConfig> is a wrapper around L<Config::Any> to load m
 
 The default behaviour is to load 3 config files based on templates containing moniker (%a), mode (%m), username (%u) and file extenstion (%e):
 
-* %a.%e
-* %a.%m.%e
-* %a.%m.%u.%e
+	* %a.%e
+	* %a.%m.%e
+	* %a.%m.%u.%e
 
 The config files are loaded in order, with later files in the chain overwriting option(s) in the previous config file.
 
