@@ -14,11 +14,11 @@ Mojolicious::Plugin::MultiConfig - Load multiple configs and merge
 
 =head1 VERSION
 
-Version 0.2
+Version 0.3-dev
 
 =cut
 
-our $VERSION = '0.2';
+our $VERSION = '0.3-dev';
 
 =head1 SYNOPSIS
 
